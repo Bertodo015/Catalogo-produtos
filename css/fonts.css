@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "extraLight";
+    src: url(../fonts/Oswald-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Oswald-Bold.ttf);
+}

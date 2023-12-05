@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+    #catalogo-descktop {
+        display: none;
+    }
+
+    .catalogo-mobile {
+        display: block;
+        text-align: center;
+    }
+
+    #title {
+        font-family: "bold";
+        font-size: 30px;
+        color: #fdfffc;
+    }
+    
+    .catalogo-card {
+        background-color: #fdfffc;
+        margin: 0 auto 20px auto;
+        padding: 20px;
+        width: 85%;
+        box-shadow: 7px 7px 10px #41ead4,
+        -7px -7px 10px #F71735;
+        border-radius: 15px;
+    }
+
+    .catalogo-row {
+        margin-bottom: 5px;
+        text-align: center; 
+    }
+
+    img {
+        height: 330px;
+        width: 270px;
+    }
+
+    .description {
+        font-family: "bold";
+    }
+
+    .value, .quant {
+        font-family: "regular";
+    }
+}

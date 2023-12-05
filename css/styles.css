@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: #011627;
+}
+
+#container {
+    padding: 20px;
+}
+
+table {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #41EAD4;
+    padding: 20px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px #fdfffc,
+    -8px -8px 10px #fdfffc;
+}
+
+caption {
+    padding-bottom: 20px;
+    font-family: "bold";
+    font-size: 25px;
+    color: #FDFFFC;
+    text-shadow: 3px 3px 10px #ffffff;
+}
+
+th {
+    font-family: "regular";
+    font-size: 20px;
+    border-bottom: 2px solid #011627;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #96eee3;
+}
+
+tbody tr:hover {
+    background-color: #F71735;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+td {
+    font-family: "extraLight";
+    font-size: 15px;
+    padding: 5px;
+}
+
+td:first-of-type, th:first-of-type {
+    text-align: center;
+}
+
+td:last-of-type, th:last-of-type {
+    text-align: right;
+}
+
+.catalogo-mobile {
+    display: none;
+}
+
+/*https://coolors.co/011627-f71735-41ead4-fdfffc-bbf0e9*/
